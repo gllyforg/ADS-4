@@ -11,7 +11,7 @@ int countPairs1(int *arr, int len, int value) {
   return count;
 }
 int countPairs2(int *arr, int len, int value) {
-  int count = 0;    
+  int count = 0;
     for (int i = 0; i < len - 1; i++) {
         int target = value - arr[i];
         int left = i + 1;
@@ -28,7 +28,6 @@ int countPairs2(int *arr, int len, int value) {
                 right = mid - 1;
             }
         }
-        
         if (firstPos != -1) {
             left = firstPos;
             right = len - 1;
@@ -44,7 +43,6 @@ int countPairs2(int *arr, int len, int value) {
                     right = mid - 1;
                 }
             }
-            
             count += (lastPos - firstPos + 1);
         }
     }
@@ -55,10 +53,9 @@ int countPairs3(int *arr, int len, int value) {
     int left = 0;
     int right = len - 1;
     while (left < right) {
-        int sum = arr[left] + arr[right];        
+        int sum = arr[left] + arr[right]; 
         if (sum == value) {
             if (arr[left] == arr[right]) {
-                // Если элементы равны, то количество пар = C(k,2), где k = right - left + 1
                 int k = right - left + 1;
                 count += k * (k - 1) / 2;
                 break;
