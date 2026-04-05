@@ -53,7 +53,7 @@ int countPairs3(int *arr, int len, int value) {
     int left = 0;
     int right = len - 1;
     while (left < right) {
-        int sum = arr[left] + arr[right]; 
+        int sum = arr[left] + arr[right];
         if (sum == value) {
             if (arr[left] == arr[right]) {
                 int k = right - left + 1;
