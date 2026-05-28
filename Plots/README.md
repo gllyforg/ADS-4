@@ -2,5 +2,7 @@
 
 - **lin.png**: линейные графики
 - **log.png**: логарифмические графики
-![lin png](https://github.com/user-attachments/assets/8edb3ad1-deff-4615-8198-c244ff9a3d1b)
-![log png](https://github.com/user-attachments/assets/5eb6223d-54d6-4dcd-84c3-24105e831885)
+![lin png](<img width="701" height="562" alt="lin" src="https://github.com/user-attachments/assets/be51e684-305b-404a-a767-2db1f0203ad0" />
+)
+![log png](<img width="706" height="559" alt="log" src="https://github.com/user-attachments/assets/e1f05a1b-c8a2-48cf-948f-f126039930c8" />
+)
